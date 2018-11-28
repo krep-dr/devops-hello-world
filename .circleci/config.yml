@@ -74,3 +74,4 @@
         - build3:
             requires:
               - build2
+              - hold
