@@ -37,7 +37,7 @@ jobs:
       - run: yarn test
   build3:
     requires: # test1 will not run until the `build` job is completed.
-      - build
+      - build2
     docker:
       # specify the version you desire here
       - image: circleci/node:7.10
